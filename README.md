@@ -23,7 +23,7 @@ supports optional recorded samples.
 - **Study and focus radio** — steady piano-led beats with a calm, non-distracting
   energy arc for working or reading.
 
-## What it is, and what it is not
+## Capabilities
 
 This engine plans entire songs rather than loops or beats, giving each piece a distinct
 arrangement and arc. While you can use presets to explore different styles, it defaults
@@ -115,12 +115,11 @@ style object documented at the top of jazz-song-engine.js.
 The single-style example above serves as a complete, minimal preset to help
 you get started.
 
-### Sharing one song
+### Sharing songs
 
 A song's seed is the only thing needed to rebuild it. `engine.setSeed('s:<base36>')`
 takes the numeric song seed already encoded in base 36, which is what the
-engine reports as `song.seedString`. Share that value and the same song plays
-first for whoever opens it.
+engine reports as `song.seedString`. 
 
 ### Samples
 
@@ -132,7 +131,7 @@ voice, and the engine keeps playing with no samples at all.
 
 ## How [kissaten.pages.dev](https://kissaten.pages.dev) uses it
 
-At Kissaten Radio the styles are moods. Each mood is a preset passed to
+At [KISSATEN RADIO](https://kissaten.pages.dev) the styles are moods. Each mood is a preset passed to
 the engine's `styles` option:
 
 - **Chill** — warm, slow, piano-led beats for studying and working.

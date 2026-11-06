@@ -19,11 +19,9 @@ supports optional recorded samples.
 
 ## Good for
 
-- **Lo-fi jazz radio** — warm, dusty, late-night jazz that keeps playing.
+- **Lo-fi jazz radio** — warm, dusty, jazz that keeps playing.
 - **Study and focus radio** — steady piano-led beats with a calm, non-distracting
   energy arc for working or reading.
-- **Generative stations** — any continuous stream that needs fresh music every
-  song but a consistent feel throughout.
 
 ## What it is, and what it is not
 
@@ -132,7 +130,7 @@ The engine asks the caller for them through a small provider object
 full list is at the top of the file). Anything missing falls back to a synth
 voice, and the engine keeps playing with no samples at all.
 
-## How kissaten.pages.dev uses it
+## How [kissaten.pages.dev](https://kissaten.pages.dev) uses it
 
 At Kissaten Radio the styles are moods. Each mood is a preset passed to
 the engine's `styles` option:
